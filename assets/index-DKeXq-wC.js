@@ -10925,7 +10925,7 @@ function TC(a3, r) {
 }
 async function M0(a3) {
   if (ie !== void 0) return ie;
-  typeof a3 < "u" && (Object.getPrototypeOf(a3) === Object.prototype ? { module_or_path: a3 } = a3 : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof a3 > "u" && (a3 = new URL("/assets/wasm-frontman_bg-DCABOm35.wasm", import.meta.url));
+  typeof a3 < "u" && (Object.getPrototypeOf(a3) === Object.prototype ? { module_or_path: a3 } = a3 : console.warn("using deprecated parameters for the initialization function; pass a single object instead")), typeof a3 > "u" && (a3 = new URL("/assets/wasm-frontman_bg-Bo8dvM5D.wasm", import.meta.url));
   const r = xC();
   (typeof a3 == "string" || typeof Request == "function" && a3 instanceof Request || typeof URL == "function" && a3 instanceof URL) && (a3 = fetch(a3));
   const { instance: o, module: s } = await SC(await a3, r);
